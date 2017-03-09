@@ -10,6 +10,10 @@ public class Stack {
 
 	private int total = EMPTY;
 	
+	public int getTotal() {
+		return total;
+	}
+
 	public void push(int i) {
 		if (!isFull())
 			ITEMS[++total] = i;
