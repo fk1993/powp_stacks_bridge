@@ -4,13 +4,11 @@ import edu.kis.vh.stacks.IStack;
 
 public class StackArray implements IStack {
 
-	private static final int EMPTY = -1;
-
 	private static final int SIZE = 12;
 
 	private final int[] ITEMS = new int[SIZE];	
 
-	private int total = EMPTY;
+	private int total = IStack.EMPTY;
 	
 	/**
 	 * @return liczba elementów na stosie
@@ -33,7 +31,7 @@ public class StackArray implements IStack {
 	 */
 	@Override
 	public boolean isEmpty() {
-		return total == EMPTY;
+		return total == IStack.EMPTY;
 	}
 	
 	/* (non-Javadoc)
@@ -47,7 +45,7 @@ public class StackArray implements IStack {
 	
 	public int top() {
 		if (isEmpty())
-			return EMPTY;
+			return IStack.EMPTY;
 		return ITEMS[total];
 	}
 	
@@ -57,7 +55,7 @@ public class StackArray implements IStack {
 	@Override
 	public int pop() {
 		if (isEmpty())
-			return EMPTY;
+			return IStack.EMPTY;
 		return ITEMS[total--];
 	}
 }

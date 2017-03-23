@@ -2,6 +2,8 @@ package edu.kis.vh.stacks;
 
 public interface IStack {
 
+	public int EMPTY = -1;
+
 	/**
 	 * @param i - element dodawany do stosu
 	 */
