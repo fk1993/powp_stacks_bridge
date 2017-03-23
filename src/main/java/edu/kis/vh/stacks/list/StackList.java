@@ -1,12 +1,19 @@
 package edu.kis.vh.stacks.list;
 
-public class StackList {
+import edu.kis.vh.stacks.Stack;
+
+public class StackList extends Stack {
 
 	private static final int EMPTY = -1;
 	private Node last;
 	int i;
 
-	public void pushElement(int i) {
+	/*
+	 * Refactor -> Change method signature
+	 */
+	
+	@Override
+	public void push(int i) {
 		if (last == null)
 			last = new Node(i);
 		else {
@@ -16,22 +23,25 @@ public class StackList {
 		}
 	}
 
-	public boolean empty() {
+	@Override
+	public boolean isEmpty() {
 		return last == null;
 	}
 
-	public boolean full() {
+	@Override
+	public boolean isFull() {
 		return false;
 	}
 
 	public int peek() {
-		if (empty())
+		if (isEmpty())
 			return EMPTY;
 		return last.getValue();
 	}
 
+	@Override
 	public int pop() {
-		if (empty())
+		if (isEmpty())
 			return EMPTY;
 		int ret = last.getValue();
 		last = last.getPrev();
