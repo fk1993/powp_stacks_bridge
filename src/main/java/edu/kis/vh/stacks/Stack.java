@@ -1,5 +1,7 @@
 package edu.kis.vh.stacks;
 
+import edu.kis.vh.stacks.implementations.StackArray;
+
 /**
  * Standardowa implementacja stosu.
  *

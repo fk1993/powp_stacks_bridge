@@ -1,4 +1,6 @@
-package edu.kis.vh.stacks;
+package edu.kis.vh.stacks.implementations;
+
+import edu.kis.vh.stacks.IStack;
 
 public class StackArray implements IStack {
 
@@ -42,9 +44,7 @@ public class StackArray implements IStack {
 		return total == SIZE - 1;
 	}
 	
-	/**
-	 * @return element znajdujący się na szczycie stosu
-	 */
+	
 	public int top() {
 		if (isEmpty())
 			return EMPTY;

@@ -22,6 +22,9 @@ public interface IStack {
 	 */
 	int pop();
 	
+	/**
+	 * @return element znajdujący się na szczycie stosu
+	 */
 	int top();
 
 }
