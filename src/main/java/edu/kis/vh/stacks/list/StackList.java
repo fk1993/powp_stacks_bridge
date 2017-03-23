@@ -1,8 +1,8 @@
 package edu.kis.vh.stacks.list;
 
-import edu.kis.vh.stacks.Stack;
+import edu.kis.vh.stacks.*;
 
-public class StackList extends Stack {
+public class StackList extends Stack implements IStack {
 
 	private static final int EMPTY = -1;
 	private Node last;

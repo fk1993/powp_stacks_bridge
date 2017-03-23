@@ -1,6 +1,6 @@
 package edu.kis.vh.stacks;
 
-public class StackArray {
+public class StackArray implements IStack {
 
 	private static final int EMPTY = -1;
 
@@ -17,24 +17,27 @@ public class StackArray {
 		return total;
 	}
 
-	/**
-	 * @param i - element dodawany do stosu
+	/* (non-Javadoc)
+	 * @see edu.kis.vh.stacks.IStack#push(int)
 	 */
+	@Override
 	public void push(int i) {
 		if (!isFull())
 			ITEMS[++total] = i;
 	}
 	
-	/**
-	 * @return true, jeśli stos jest pusty
+	/* (non-Javadoc)
+	 * @see edu.kis.vh.stacks.IStack#isEmpty()
 	 */
+	@Override
 	public boolean isEmpty() {
 		return total == EMPTY;
 	}
 	
-	/**
-	 * @return true, jeśli stos jest pełny
+	/* (non-Javadoc)
+	 * @see edu.kis.vh.stacks.IStack#isFull()
 	 */
+	@Override
 	public boolean isFull() {
 		return total == SIZE - 1;
 	}
@@ -48,9 +51,10 @@ public class StackArray {
 		return ITEMS[total];
 	}
 	
-	/**
-	 * @return element usunięty ze stosu
+	/* (non-Javadoc)
+	 * @see edu.kis.vh.stacks.IStack#pop()
 	 */
+	@Override
 	public int pop() {
 		if (isEmpty())
 			return EMPTY;
