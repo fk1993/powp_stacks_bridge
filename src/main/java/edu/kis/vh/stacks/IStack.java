@@ -21,5 +21,7 @@ public interface IStack {
 	 * @return element usunięty ze stosu
 	 */
 	int pop();
+	
+	int top();
 
 }

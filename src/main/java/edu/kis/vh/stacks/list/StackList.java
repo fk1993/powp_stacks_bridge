@@ -2,7 +2,7 @@ package edu.kis.vh.stacks.list;
 
 import edu.kis.vh.stacks.*;
 
-public class StackList extends Stack implements IStack {
+public class StackList implements IStack {
 
 	private static final int EMPTY = -1;
 	private Node last;
@@ -46,6 +46,11 @@ public class StackList extends Stack implements IStack {
 		int ret = last.getValue();
 		last = last.getPrev();
 		return ret;
+	}
+
+	@Override
+	public int top() {
+		return last.getValue();
 	}
 
 }

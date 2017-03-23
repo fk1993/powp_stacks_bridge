@@ -1,0 +1,125 @@
+[33mcommit c20608b0b5a4c67b1b26edd49d518e3e645e4ee3[m
+Author: fk1993 <fkaszuba93@gmail.com>
+Date:   Thu Mar 23 15:07:47 2017 +0100
+
+    lab2 3.1.4.
+
+[33mcommit 9eec254126d93c9c0de6b4d85525326b5d77f29a[m
+Author: fk1993 <fkaszuba93@gmail.com>
+Date:   Thu Mar 23 14:51:36 2017 +0100
+
+    lab2 3.1.2.
+
+[33mcommit 3e0e626592019c42323aaec2b71d5151cd5a6771[m
+Author: fk1993 <fkaszuba93@gmail.com>
+Date:   Thu Mar 23 14:39:27 2017 +0100
+
+    lab2 3.1.1.
+
+[33mcommit d94dfe61b80e2cf920ea5841100fedade6bf0f83[m
+Author: Filip Kaszuba <fkaszuba93@gmail.com>
+Date:   Thu Mar 16 12:55:22 2017 +0100
+
+    3.3.2.
+
+[33mcommit 1d0ab142782347fc228971082bd243d0a368b598[m
+Author: Filip Kaszuba <fkaszuba93@gmail.com>
+Date:   Thu Mar 16 12:47:29 2017 +0100
+
+    3.3.1.
+
+[33mcommit 3ef16f5024ca98f65cc2ed9a1d73fd77c21017cf[m
+Author: Filip Kaszuba <fkaszuba93@gmail.com>
+Date:   Thu Mar 9 18:31:13 2017 +0100
+
+    3.1.13.
+
+[33mcommit d854472b77f10f31cf9498dd2cabbc81d4bc1baf[m
+Author: Filip Kaszuba <fkaszuba93@gmail.com>
+Date:   Thu Mar 9 18:26:48 2017 +0100
+
+    3.1.12.
+
+[33mcommit 2c1d37f9e97f9f3c11ccdce60f4bced2e370fdee[m
+Author: Filip Kaszuba <fkaszuba93@gmail.com>
+Date:   Thu Mar 9 18:23:23 2017 +0100
+
+    3.1.11.
+
+[33mcommit 82cfe633b62a704a49c3fb3d51d994d67de89fa1[m
+Author: Filip Kaszuba <fkaszuba93@gmail.com>
+Date:   Thu Mar 9 18:20:21 2017 +0100
+
+    3.1.10.
+
+[33mcommit d334f33d0cff87b0fa0f71c6ff584f0f6af1c8c4[m
+Author: Filip Kaszuba <fkaszuba93@gmail.com>
+Date:   Thu Mar 9 18:17:28 2017 +0100
+
+    3.1.9.
+
+[33mcommit 6e8abdbe73dd32a44fdd35cdbd4a68bf1ed20f03[m
+Author: Filip Kaszuba <fkaszuba93@gmail.com>
+Date:   Thu Mar 9 18:14:51 2017 +0100
+
+    3.1.8.
+
+[33mcommit 499daa0349930e0cc82cc42731f8f55149ea9014[m
+Author: Filip Kaszuba <fkaszuba93@gmail.com>
+Date:   Thu Mar 9 18:09:33 2017 +0100
+
+    3.1.7.
+
+[33mcommit caf63d45176493ed721f83b57b373ac181c7cc8d[m
+Author: Filip Kaszuba <fkaszuba93@gmail.com>
+Date:   Thu Mar 9 18:08:33 2017 +0100
+
+    3.1.6.
+
+[33mcommit e49ab3508eeba70fa1b2938954f0012d30184ac1[m
+Author: Filip Kaszuba <fkaszuba93@gmail.com>
+Date:   Thu Mar 9 18:04:05 2017 +0100
+
+    3.1.5.
+
+[33mcommit 9c0c26bdbf5df9857dcc89e983a9ce50a0d7baee[m
+Author: Filip Kaszuba <fkaszuba93@gmail.com>
+Date:   Thu Mar 9 17:55:30 2017 +0100
+
+    3.1.4.
+
+[33mcommit 49f840ca1782c09f8349e2b29dbdcaa3d7acd47f[m
+Author: Filip Kaszuba <fkaszuba93@gmail.com>
+Date:   Thu Mar 9 17:47:59 2017 +0100
+
+    3.1.3.
+
+[33mcommit 70f54097b0701b355ef6e4bb6cddeb029f0eb0da[m
+Author: Filip Kaszuba <fkaszuba93@gmail.com>
+Date:   Thu Mar 9 17:45:49 2017 +0100
+
+    3.1.1,2.
+
+[33mcommit 9efd4fce56010b7e0f33603b8b7059b59e04cab4[m
+Author: kowallus <kowallus@o2.pl>
+Date:   Wed Mar 1 21:48:29 2017 +0100
+
+    Create README.md
+    
+    Principles of task evaluation.
+
+[33mcommit a81e892a1e35df8244fa661d4c2d2f6f994558c3[m
+Author: kowallus <kowallus@o2.pl>
+Date:   Wed Mar 1 21:16:57 2017 +0100
+
+    Add files via upload
+    
+    First laboratory
+
+[33mcommit 85139a5c8b2382fa43493c5affe015dc5f3d89e4[m
+Author: Kowallus <kowallus@o2.pl>
+Date:   Sun Oct 2 13:15:02 2016 +0200
+
+    Java maven project for powp laboratories:
+    - poprawa jakości kodu
+    - refaktoryzacja do wzorca bridge

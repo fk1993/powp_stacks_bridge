@@ -7,7 +7,7 @@ package edu.kis.vh.stacks;
 
 public class Stack {
 
-	private StackArray array;
+	private IStack array;
 
 	public Stack(){
 		array = new StackArray();
@@ -16,10 +16,7 @@ public class Stack {
 		super();
 		this.array = array;
 	}
-	
-	public int getTotal() {
-		return array.getTotal();
-	}
+
 	public void push(int i) {
 		array.push(i);
 	}
