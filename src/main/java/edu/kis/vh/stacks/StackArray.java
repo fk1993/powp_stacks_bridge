@@ -1,3 +1,4 @@
+package edu.kis.vh.stacks;
 
 public class StackArray {
 

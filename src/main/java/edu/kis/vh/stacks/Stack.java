@@ -7,59 +7,32 @@ package edu.kis.vh.stacks;
 
 public class Stack {
 
-	private static final int EMPTY = -1;
+	private StackArray array;
 
-	private static final int SIZE = 12;
-
-	private final int[] ITEMS = new int[SIZE];	
-
-	private int total = EMPTY;
+	public Stack(){
+		array = new StackArray();
+	}
+	public Stack(StackArray array) {
+		super();
+		this.array = array;
+	}
 	
-	/**
-	 * @return liczba elementów na stosie
-	 */
 	public int getTotal() {
-		return total;
+		return array.getTotal();
 	}
-
-	/**
-	 * @param i - element dodawany do stosu
-	 */
 	public void push(int i) {
-		if (!isFull())
-			ITEMS[++total] = i;
+		array.push(i);
 	}
-	
-	/**
-	 * @return true, jeśli stos jest pusty
-	 */
 	public boolean isEmpty() {
-		return total == EMPTY;
+		return array.isEmpty();
 	}
-	
-	/**
-	 * @return true, jeśli stos jest pełny
-	 */
 	public boolean isFull() {
-		return total == SIZE - 1;
+		return array.isFull();
 	}
-	
-	/**
-	 * @return element znajdujący się na szczycie stosu
-	 */
 	public int top() {
-		if (isEmpty())
-			return EMPTY;
-		return ITEMS[total];
+		return array.top();
 	}
-	
-	/**
-	 * @return element usunięty ze stosu
-	 */
 	public int pop() {
-		if (isEmpty())
-			return EMPTY;
-		return ITEMS[total--];
+		return array.pop();
 	}
-				
 }
