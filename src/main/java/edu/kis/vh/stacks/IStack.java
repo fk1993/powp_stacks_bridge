@@ -2,7 +2,8 @@ package edu.kis.vh.stacks;
 
 public interface IStack {
 
-	public int EMPTY = -1;
+	public int EMPTY = 0;
+	/* Przeniesienie stałej do wspólnego interfejsu ułatwia zmianę zwracanej wartości. */
 
 	/**
 	 * @param i - element dodawany do stosu
