@@ -35,3 +35,6 @@ public class Stack {
 		return array.pop();
 	}
 }
+
+/* "Navigate -> Open declaration" przenosi do deklaracji metody w pliku "IStack.java".
+ * "Navigate -> Quick type hierarchy" wyświetla drzewo hierarchii. */
