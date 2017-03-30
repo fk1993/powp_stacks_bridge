@@ -1,20 +1,25 @@
 package edu.kis.vh.stacks.demo;
 
 import edu.kis.vh.stacks.StackHanoi;
-import edu.kis.vh.stacks.Stack;
-import edu.kis.vh.stacks.factory.DefaultStacksFactory;
+import edu.kis.vh.stacks.IStack;
+import edu.kis.vh.stacks.factory.*;
 
 class StacksDemo {
 
 	private static final int RANGE = 20;
 
 	public static void main(String[] args) {
-		DefaultStacksFactory factory = new DefaultStacksFactory();
-		testStacks(factory);
+		DefaultStacksFactory defaultFactory = new DefaultStacksFactory();
+		ArrayStacksFactory arrayFactory = new ArrayStacksFactory();
+		ListStacksFactory listFactory = new ListStacksFactory();
+		
+		testStacks(defaultFactory);
+		testStacks(arrayFactory);
+		testStacks(listFactory);
 	}
 
-	private static void testStacks(DefaultStacksFactory factory) {
-		Stack[] stacks = { factory.getStandardStack(), factory.getFalseStack(), factory.getFIFOStack(),
+	private static void testStacks(StacksFactory factory) {
+		IStack[] stacks = { factory.getStandardStack(), factory.getFalseStack(), factory.getFIFOStack(),
 				factory.getHanoiStack() };
 
 		for (int i = 1; i < 15; i++)
