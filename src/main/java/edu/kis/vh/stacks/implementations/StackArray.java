@@ -23,7 +23,7 @@ public class StackArray implements IStack {
 	@Override
 	public void push(int i) {
 		if (!isFull())
-			ITEMS[++total] = i;
+			ITEMS[total++] = i;
 	}
 	
 	/* (non-Javadoc)
@@ -39,14 +39,14 @@ public class StackArray implements IStack {
 	 */
 	@Override
 	public boolean isFull() {
-		return total == SIZE - 1;
+		return total == SIZE;
 	}
 	
 	
 	public int top() {
 		if (isEmpty())
 			return IStack.EMPTY;
-		return ITEMS[total];
+		return ITEMS[total - 1];
 	}
 	
 	/* (non-Javadoc)
@@ -56,6 +56,6 @@ public class StackArray implements IStack {
 	public int pop() {
 		if (isEmpty())
 			return IStack.EMPTY;
-		return ITEMS[total--];
+		return ITEMS[--total];
 	}
 }
