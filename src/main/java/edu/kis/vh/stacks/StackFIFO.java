@@ -1,6 +1,6 @@
 package edu.kis.vh.stacks;
 
-import edu.kis.vh.stacks.implementations.StackArray;
+import edu.kis.vh.stacks.implementations.*;
 
 public class StackFIFO extends Stack {
 
@@ -14,7 +14,9 @@ public class StackFIFO extends Stack {
 		// TODO Auto-generated constructor stub
 	}
 
-	private final Stack temp = new Stack();
+	private final StackList temp = new StackList();
+	/* StackList jest lepszym wyborem, ponieważ lista lepiej się nadaje 
+	 * do implementacji mechanizmu FIFO niż tablica. */
 	
 	@Override
 	public int pop() {
