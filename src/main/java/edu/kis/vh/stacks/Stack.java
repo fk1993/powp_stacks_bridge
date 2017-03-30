@@ -14,7 +14,7 @@ public class Stack implements IStack {
 	public Stack(){
 		array = new StackArray();
 	}
-	public Stack(StackArray array) {
+	public Stack(IStack array) {
 		super();
 		this.array = array;
 	}
