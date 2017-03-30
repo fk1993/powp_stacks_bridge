@@ -7,7 +7,7 @@ import edu.kis.vh.stacks.implementations.StackArray;
  *
  */
 
-public class Stack {
+public class Stack implements IStack {
 
 	private IStack array;
 
